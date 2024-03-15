@@ -13,3 +13,5 @@ numpy == 1.24.3
 
 * amazon-book: batch_size=2048, beta=0.8, l2=1e-5
 
+* movielens: batch_size=1024, beta=0.9, l2=1e-4, agg='cat'
+
