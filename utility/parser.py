@@ -36,8 +36,6 @@ def parse_args():
 
     parser.add_argument('--topK', nargs='?', default='[20, 40, 60]', help='size of Top-K')
 
-    parser.add_argument('--test_flag', nargs='?', default='part', help='Specify the test type from {part, full}')
-
     parser.add_argument("--verbose", type=int, default=10, help="Test interval")
 
     parser.add_argument("--multicore", type=int, default=0, help="use multiprocessing or not in test")
