@@ -1,5 +1,6 @@
 # NIE-GCN
-NIE-GCN: Neighbor Item Embedding-aware Graph Convolutional Network for Recommendation
+This is the PyTorch implementation for the paper:
+> Zhang, Yi, et al. "[NIE-GCN: Neighbor Item Embedding-Aware Graph Convolutional Network for Recommendation.](https://ieeexplore.ieee.org/abstract/document/10413999)" IEEE Transactions on Systems, Man, and Cybernetics: Systems (2024).
 
 ## Environment
 ```
@@ -15,3 +16,18 @@ numpy == 1.24.3
 
 * movielens: batch_size=1024, beta=0.9, l2=1e-4, agg='cat'
 
+  
+## Citation
+If you find this work is helpful to your research, please consider citing our paper:
+```
+@article{zhang2024nie,
+  title={NIE-GCN: Neighbor Item Embedding-Aware Graph Convolutional Network for Recommendation},
+  author={Zhang, Yi and Zhang, Yiwen and Yan, Dengcheng and He, Qiang and Yang, Yun},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  year={2024},
+  volume={54},
+  number={5},
+  pages={2810-2821},
+  publisher={IEEE}
+}
+```
